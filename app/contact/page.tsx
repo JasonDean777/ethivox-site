@@ -1,5 +1,4 @@
 // app/contact/page.tsx
-"use client";
 
 export default function ContactPage() {
   return (
@@ -20,13 +19,8 @@ export default function ContactPage() {
 
       <form
         className="space-y-4 rounded-2xl border border-slate-800 bg-slate-900/60 p-6 text-sm"
-        // TODO: wire this to a real endpoint (Formspree or a Next.js API route)
-        onSubmit={(e) => {
-          e.preventDefault();
-          alert(
-            "Form submitted (demo only). We’ll wire this to a real endpoint next."
-          );
-        }}
+        action="https://formspree.io/f/mdkvdnkd" // ⬅️ replace with your real Formspree endpoint
+        method="POST"
       >
         <div className="space-y-1">
           <label htmlFor="name" className="text-xs font-medium text-slate-200">
@@ -92,16 +86,20 @@ export default function ContactPage() {
           />
         </div>
 
+        {/* Metadata for your inbox */}
+        <input type="hidden" name="_subject" value="New Ethivox intro request" />
+        <input type="hidden" name="source" value="ethivoxai.com" />
+
         <button
           type="submit"
           className="mt-2 w-full rounded-full bg-emerald-400 px-5 py-2 text-sm font-semibold text-slate-950 shadow-sm hover:bg-emerald-300"
         >
-          Submit (demo only)
+          Submit
         </button>
 
         <p className="mt-2 text-xs text-slate-400">
-          We&apos;ll replace this demo handler with a real submission endpoint
-          (Formspree, email, or CRM integration) once your domain and inbox are set.
+          Submissions are delivered securely via Formspree. We&apos;ll respond
+          personally, not with an automated bot.
         </p>
       </form>
     </div>
