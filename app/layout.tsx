@@ -6,13 +6,13 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://ethivoxai.com"),
-  title: "Ethivox | Ethical Intelligence Systems for Cleveland Businesses",
+  title: "Ethivox | AI Consultant & Ethical Intelligence Systems in Cleveland",
   description:
-    "Ethivox designs ethical, human-centered AI systems for small and mid-sized organizations in Cleveland and beyond. We architect AI, knowledge, and governance systems that act as a co-executive partner.",
+    "Ethivox is an AI consultant in Cleveland, Ohio that designs ethical, human-centered AI systems, knowledge architectures, and governance frameworks for small and mid-sized organizations.",
   openGraph: {
-    title: "Ethivox | Ethical Intelligence Systems for Cleveland Businesses",
+    title: "Ethivox | AI Consultant & Ethical Intelligence Systems in Cleveland",
     description:
-      "Ethivox helps leadership teams architect AI, knowledge, and governance systems that create real leverage without losing their humanity.",
+      "Ethivox helps Cleveland leadership teams architect AI, knowledge, and governance systems that create real leverage without losing their humanity.",
     url: "https://ethivoxai.com",
     siteName: "Ethivox",
     type: "website",
@@ -20,9 +20,14 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ethivox | Ethical Intelligence Systems for Cleveland Businesses",
+    title: "Ethivox | AI Consultant & Ethical Intelligence Systems in Cleveland",
     description:
-      "Ethivox designs ethical, human-centered AI architectures, knowledge systems, and governance frameworks for small and mid-sized organizations.",
+      "Ethivox is a Cleveland-based AI consultant focused on ethical intelligence systems, knowledge engineering, and AI governance for small and mid-sized organizations.",
+  },
+  icons: {
+    icon: "/icon.png",
+    shortcut: "/icon.png",
+    apple: "/icon.png",
   },
 };
 
@@ -40,7 +45,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                   Ethivox
                 </span>
                 <span className="hidden text-xs text-slate-400 sm:inline">
-                  Ethical Intelligence Systems • Cleveland
+                  AI Consultant • Ethical Intelligence Systems • Cleveland, Ohio
                 </span>
               </Link>
 
@@ -76,12 +81,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <div className="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-6 text-xs text-slate-400 sm:flex-row sm:items-center sm:justify-between">
               <div>
                 <p className="font-medium text-slate-300">Ethivox</p>
-                <p>Cleveland, Ohio • Ethical Intelligence Systems</p>
+                <p>Cleveland, Ohio • AI Consultant &amp; Ethical Intelligence Systems</p>
               </div>
               <div className="flex flex-wrap gap-4">
                 <span>© {new Date().getFullYear()} Ethivox LLC</span>
                 <span className="hidden sm:inline">•</span>
-                <span>Architecting human-centered AI for SMBs.</span>
+                <span>Architecting human-centered AI for SMBs in Northeast Ohio and beyond.</span>
               </div>
             </div>
           </footer>
