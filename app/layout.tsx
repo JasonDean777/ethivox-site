@@ -5,9 +5,25 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ethivoxai.com"),
   title: "Ethivox | Ethical Intelligence Systems for Cleveland Businesses",
   description:
-    "Ethivox designs ethical, human-centered AI systems for small and mid-sized businesses in Cleveland.",
+    "Ethivox designs ethical, human-centered AI systems for small and mid-sized organizations in Cleveland and beyond. We architect AI, knowledge, and governance systems that act as a co-executive partner.",
+  openGraph: {
+    title: "Ethivox | Ethical Intelligence Systems for Cleveland Businesses",
+    description:
+      "Ethivox helps leadership teams architect AI, knowledge, and governance systems that create real leverage without losing their humanity.",
+    url: "https://ethivoxai.com",
+    siteName: "Ethivox",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ethivox | Ethical Intelligence Systems for Cleveland Businesses",
+    description:
+      "Ethivox designs ethical, human-centered AI architectures, knowledge systems, and governance frameworks for small and mid-sized organizations.",
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
