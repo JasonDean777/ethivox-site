@@ -85,6 +85,33 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Cleveland Vendor Decoder – feature card */}
+      <section className="space-y-4 rounded-2xl border border-slate-800 bg-slate-900/40 p-6">
+        <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-300/80">
+          New • Built in Cleveland
+        </p>
+        <h2 className="text-xl font-semibold tracking-tight text-slate-50">
+          Cleveland Vendor Decoder
+        </h2>
+        <p className="max-w-2xl text-sm text-slate-300">
+          Before you sign a retainer or services agreement, run it through the Cleveland
+          Vendor Decoder. Paste a proposal and get a structured breakdown of risk, red
+          flags, missing clarity, and the questions you should ask next—built by Ethivox
+          to protect Cleveland founders and leadership teams.
+        </p>
+        <div className="flex flex-wrap gap-3">
+          <a
+            href="/cleveland-vendor-decoder"
+            className="rounded-full bg-emerald-400 px-5 py-2 text-sm font-semibold text-slate-950 shadow-sm hover:bg-emerald-300"
+          >
+            Open the Cleveland Vendor Decoder →
+          </a>
+          <p className="text-xs text-slate-400">
+            Hyper-local, ethics-first AI for proposals, agencies, and vendors.
+          </p>
+        </div>
+      </section>
+
       {/* Who we work with */}
       <section className="space-y-6">
         <h2 className="text-xl font-semibold tracking-tight text-slate-50">
@@ -266,7 +293,7 @@ export default function HomePage() {
             <p>
               We primarily work with small and mid-sized organizations—businesses,
               agencies, and institutions that are big enough to benefit from AI systems
-              but small enough to care deeply about culture and ethics.
+              but small enough to care deeply about culture.
             </p>
           </div>
           <div className="space-y-1 rounded-xl border border-slate-800 bg-slate-900/40 p-4">
