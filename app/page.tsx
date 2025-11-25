@@ -7,18 +7,18 @@ export default function HomePage() {
       <section className="grid gap-10 md:grid-cols-[minmax(0,3fr)_minmax(0,2fr)] md:items-center">
         <div className="space-y-6">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-emerald-300/80">
-            Cleveland, Ohio • AI Consultant &amp; Ethical Intelligence Systems
+            AI Consultant • Ethical Intelligence Systems • Based in Cleveland, Ohio
           </p>
           <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl md:text-5xl">
-            Cleveland-based{" "}
+            A human-centered{" "}
             <span className="text-emerald-300">AI consultant</span> for small &amp;
             mid-sized organizations.
           </h1>
           <p className="max-w-xl text-sm leading-relaxed text-slate-300">
-            Ethivox designs ethical, human-centered AI systems for leadership teams
-            in Cleveland and across Northeast Ohio. We architect workflows, knowledge
-            bases, and governance so AI functions as a co-executive partner—clear,
-            explainable, and aligned with how your organization actually runs.
+            Ethivox designs ethical, human-centered AI systems and knowledge
+            architectures for leadership teams. We architect workflows and governance
+            so AI functions as a co-executive partner—clear, explainable, and aligned
+            with how your organization actually runs.
           </p>
 
           <div className="flex flex-wrap gap-3">
@@ -26,7 +26,7 @@ export default function HomePage() {
               href="/contact"
               className="rounded-full bg-emerald-400 px-5 py-2 text-sm font-semibold text-slate-950 shadow-sm hover:bg-emerald-300"
             >
-              Talk with a Cleveland AI consultant
+              Talk with an AI consultant
             </a>
             <a
               href="/services"
@@ -88,12 +88,12 @@ export default function HomePage() {
       {/* Who we work with */}
       <section className="space-y-6">
         <h2 className="text-xl font-semibold tracking-tight text-slate-50">
-          AI consulting for Cleveland leadership teams.
+          AI consulting for leadership teams.
         </h2>
         <p className="max-w-2xl text-sm text-slate-300">
-          Ethivox works with small and mid-sized organizations in Cleveland and Northeast
-          Ohio that want serious AI systems—not experiments that create more noise than
-          clarity. We focus on leaders who are accountable for outcomes and culture.
+          Ethivox works with small and mid-sized organizations that want serious AI
+          systems—not experiments that create more noise than clarity. We focus on
+          leaders who are accountable for outcomes, culture, and long-term trust.
         </p>
         <div className="grid gap-6 text-sm text-slate-300 md:grid-cols-3">
           <div className="space-y-2 rounded-xl border border-slate-800 bg-slate-900/40 p-4">
@@ -131,7 +131,7 @@ export default function HomePage() {
         <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
           <div>
             <h2 className="text-xl font-semibold tracking-tight text-slate-50">
-              AI consulting services in Cleveland.
+              AI consulting services.
             </h2>
             <p className="max-w-xl text-sm text-slate-300">
               Ethivox combines AI architecture, automation, knowledge systems, creative
@@ -154,7 +154,7 @@ export default function HomePage() {
             </p>
             <p className="text-slate-300">
               AI audits, workflow and system mapping, and multi-agent orchestration plans
-              tailored to how your Cleveland organization actually operates.
+              tailored to how your organization actually operates.
             </p>
           </div>
 
@@ -200,16 +200,16 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Local focus section */}
+      {/* Local / proximity focus */}
       <section className="space-y-4">
         <h2 className="text-xl font-semibold tracking-tight text-slate-50">
-          Why work with a Cleveland AI consultant instead of a distant vendor?
+          Why work with a nearby AI consultant instead of a distant vendor?
         </h2>
         <p className="max-w-2xl text-sm text-slate-300">
           Many AI consulting firms are built around slide decks and buzzwords. Ethivox
-          is rooted in Cleveland and built for organizations that need pragmatic,
-          high-ethics AI systems. We understand the constraints of regional businesses:
-          budgets, staffing, culture, and long-term relationships.
+          is built for organizations that need pragmatic, high-ethics AI systems. We
+          understand the constraints of real-world businesses: budgets, staffing,
+          culture, and long-term relationships.
         </p>
         <ul className="grid gap-3 text-sm text-slate-300 md:grid-cols-3">
           <li className="rounded-xl border border-slate-800 bg-slate-900/40 p-4">
@@ -226,8 +226,8 @@ export default function HomePage() {
               In-person or hybrid collaboration
             </p>
             <p>
-              As a Cleveland AI consultant, we can combine remote design work with
-              on-site workshops and leadership sessions when needed.
+              When it matters, we can combine remote design work with live workshops
+              and leadership sessions to align on decisions and governance.
             </p>
           </li>
           <li className="rounded-xl border border-slate-800 bg-slate-900/40 p-4">
@@ -245,12 +245,12 @@ export default function HomePage() {
       {/* FAQ for SEO */}
       <section className="space-y-6">
         <h2 className="text-xl font-semibold tracking-tight text-slate-50">
-          Cleveland AI consultant FAQ.
+          AI consultant FAQ.
         </h2>
         <div className="space-y-4 text-sm text-slate-300">
           <div className="space-y-1 rounded-xl border border-slate-800 bg-slate-900/40 p-4">
             <h3 className="text-sm font-semibold text-slate-50">
-              What does an AI consultant in Cleveland actually do?
+              What does an AI consultant actually do?
             </h3>
             <p>
               Ethivox focuses on system design, not just tools. We map your workflows,
@@ -264,10 +264,9 @@ export default function HomePage() {
               What size organizations does Ethivox work with?
             </h3>
             <p>
-              We primarily work with small and mid-sized organizations in Cleveland and
-              Northeast Ohio—businesses, agencies, and institutions that are big enough
-              to benefit from AI systems but small enough to care about culture and
-              ethics.
+              We primarily work with small and mid-sized organizations—businesses,
+              agencies, and institutions that are big enough to benefit from AI systems
+              but small enough to care deeply about culture and ethics.
             </p>
           </div>
           <div className="space-y-1 rounded-xl border border-slate-800 bg-slate-900/40 p-4">
@@ -291,7 +290,7 @@ export default function HomePage() {
               Next step
             </p>
             <h2 className="text-lg font-semibold text-slate-50 sm:text-xl">
-              Talk with a Cleveland AI consultant about your systems.
+              Talk with an AI consultant about your systems.
             </h2>
             <p className="max-w-xl text-sm text-slate-200">
               In a focused working session, we map your workflows, knowledge, and risks
