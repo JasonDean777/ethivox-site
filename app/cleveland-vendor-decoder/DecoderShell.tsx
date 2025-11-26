@@ -174,7 +174,10 @@ export function DecoderShell() {
           <div className="grid gap-4 md:grid-cols-2">
             <AnalysisList title="Strengths" items={analysis.strengths} />
             <AnalysisList title="Red flags" items={analysis.redFlags} />
-            <AnalysisList title="Missing clarity" items={analysis.missingClarity} />
+            <AnalysisList
+              title="Missing clarity"
+              items={analysis.missingClarity}
+            />
             <AnalysisList
               title="Questions to ask"
               items={analysis.questionsToAsk}
@@ -189,6 +192,33 @@ export function DecoderShell() {
               {analysis.notesForFounder}
             </p>
           </div>
+
+          {/* Proposal Defense CTA */}
+          <div className="mt-6 border-t border-slate-800 pt-4">
+            <h3 className="text-sm font-semibold text-slate-200">
+              Want a second set of eyes on this?
+            </h3>
+            <p className="mt-2 text-sm text-slate-300">
+              If this proposal is meaningful for your business, don&apos;t go into
+              the next call alone. In a 60-minute{" "}
+              <span className="font-semibold">Ethivox Proposal Defense Session</span>, we&apos;ll
+              walk through the details with you, pressure-test the promises,
+              and help you decide your next move.
+            </p>
+            <div className="mt-3 flex flex-wrap items-center gap-3">
+              <a
+                href="/proposal-defense" // replace with your actual booking link when ready
+                className="inline-flex items-center rounded-md bg-emerald-500 px-4 py-2 text-sm font-medium text-slate-900 hover:opacity-90"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Book a Proposal Defense Session
+              </a>
+              <p className="text-xs text-slate-400">
+                60-minute live session • starting at $250
+              </p>
+            </div>
+          </div>
         </section>
       )}
 
@@ -199,9 +229,9 @@ export function DecoderShell() {
             3. Optional: External footprint snapshot
           </h2>
           <p className="text-sm text-slate-300">
-            If you have a Google, Yelp, or other review page for this vendor,
-            paste the URL below and we&apos;ll generate a cautious sentiment
-            summary based only on that page.
+            Experimental: paste a Google Maps or Yelp business review URL to see
+            a cautious external footprint snapshot. This feature is in beta and
+            may occasionally ask you to try again if the AI is busy.
           </p>
 
           <div className="space-y-2">
@@ -209,9 +239,14 @@ export function DecoderShell() {
             <input
               value={reviewUrl}
               onChange={(e) => setReviewUrl(e.target.value)}
-              placeholder="https://maps.app.goo.gl/... or https://www.yelp.com/..."
+              placeholder="https://maps.app.goo.gl/... or https://www.yelp.com/biz/..."
               className="w-full rounded-md bg-slate-950 border border-slate-700 px-2 py-2 text-sm"
             />
+            <p className="text-xs text-slate-400">
+              Hint: you&apos;ll get the best results with a direct business review
+              page (e.g. a specific Yelp or Google listing), not a brand or
+              directory page.
+            </p>
           </div>
 
           <button

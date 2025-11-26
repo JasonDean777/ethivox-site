@@ -268,6 +268,100 @@ export default function HomePage() {
           </li>
         </ul>
       </section>
+      {/* Why I built Ethivox */}
+<section className="space-y-4">
+  <h2 className="text-xl font-semibold tracking-tight text-slate-50">
+    Why I built Ethivox instead of being just a “fractional CMO”.
+  </h2>
+  <p className="max-w-2xl text-sm text-slate-300">
+    I didn&apos;t start Ethivox because the world needed another AI consultant.
+    I started it because I watched, from the inside, how AI, vendors, ads, and
+    funnels can quietly distort reality for a real business.
+  </p>
+  <p className="max-w-2xl text-sm text-slate-300">
+    At The Lonely Entrepreneur (TLE), I wasn&apos;t running slide decks. I was
+    inside the actual system:
+  </p>
+  <ul className="list-disc list-inside text-sm text-slate-300 space-y-1">
+    <li>Google Ads traffic that looked “good” on dashboards but was polluted by bot clicks.</li>
+    <li>Landing pages and forms that were fine alone but broke when chained together.</li>
+    <li>Vendors and tools with big promises, vague accountability, and no coherent architecture.</li>
+  </ul>
+  <p className="max-w-2xl text-sm text-slate-300">
+    My role became less “run campaigns” and more:
+  </p>
+  <ul className="list-disc list-inside text-sm text-slate-300 space-y-1">
+    <li>Map the entire flow: traffic → landing pages → forms → HubSpot → sales → recurring revenue.</li>
+    <li>Separate signal from noise in the data.</li>
+    <li>Decide where AI should actually live in that system—and where it shouldn&apos;t.</li>
+  </ul>
+  <p className="max-w-2xl text-sm text-slate-300">
+    Ethivox exists because most leaders don&apos;t need more AI demos. They need
+    someone who can see the whole system, call out structural risk and vendor BS
+    before it compounds, and design AI into the architecture of the business—not
+    as decoration on top.
+  </p>
+</section>
+
+{/* How I think as an AI architect */}
+<section className="space-y-4">
+  <h2 className="text-xl font-semibold tracking-tight text-slate-50">
+    How I think as an AI architect.
+  </h2>
+  <p className="max-w-2xl text-sm text-slate-300">
+    When I look at a company&apos;s AI and digital stack—TLE&apos;s or yours—I
+    score it across four dimensions:
+  </p>
+  <div className="grid gap-4 md:grid-cols-2 text-sm text-slate-300">
+    <div className="space-y-1">
+      <p className="text-xs font-semibold text-emerald-300">
+        01 · Architecture &amp; Flow
+      </p>
+      <p>
+        Does data, intent, and action move through the system in a deliberate way?
+        At TLE, this meant mapping Google Ads → landing pages → hidden field tagging
+        → HubSpot deals → Sidekick calls → LC membership.
+      </p>
+    </div>
+    <div className="space-y-1">
+      <p className="text-xs font-semibold text-emerald-300">
+        02 · Automation &amp; Agents
+      </p>
+      <p>
+        Where should humans stop doing glue work, and where should AI actually carry load?
+        For TLE, that looked like AI-assisted keyword analysis, and future agents to
+        summarize calls, proposals, and content into usable assets.
+      </p>
+    </div>
+    <div className="space-y-1">
+      <p className="text-xs font-semibold text-emerald-300">
+        03 · Measurement &amp; Feedback
+      </p>
+      <p>
+        Can we see what&apos;s working fast enough to change it? At TLE, that meant
+        chasing down a 10k traffic spike and invalid clicks instead of just celebrating
+        “more visitors,” and measuring landing pages against real HP leads, not just CTR.
+      </p>
+    </div>
+    <div className="space-y-1">
+      <p className="text-xs font-semibold text-emerald-300">
+        04 · Ethics &amp; Reality Alignment
+      </p>
+      <p>
+        Is the system aligned with how the business actually runs, without quietly
+        misleading everyone? With TLE and Ethivox, that means no fake certainty in
+        sentiment or vendor quality, and tools like the Cleveland Vendor Decoder to
+        surface risk transparently.
+      </p>
+    </div>
+  </div>
+  <p className="max-w-2xl text-xs text-slate-400">
+    When we work together, I apply the same scorecard to your system that I applied
+    to TLE&apos;s: is this architecture clear, measurable, automatable in the right
+    places, and honest about reality?
+  </p>
+</section>
+
 
       {/* FAQ for SEO */}
       <section className="space-y-6">
